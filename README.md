@@ -57,16 +57,6 @@ MoE-Bot-Discord is a Discord bot built with discord.py designed to manage the CS
 
 ---
 
-## Directory Structure
-
-MoE-Bot-Discord/
-├── database/            # Stores per-user SQLite database files (Auto-generated)
-├── app.py               # Main bot script & slash command handler
-├── offline_filter.py    # Offline message filtering module
-└── README.md            # Project documentation
-
----
-
 ## Security Note
 
 Important: Never commit or push your actual Discord bot token publicly to GitHub. Use Environment Variables (`.env`) or make sure to sanitize your credentials before running `git push`.
